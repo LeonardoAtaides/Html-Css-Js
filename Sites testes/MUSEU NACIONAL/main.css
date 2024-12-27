@@ -1,0 +1,214 @@
+body{
+    padding: 0;
+    margin: 0;  
+    background: rgb(248, 248, 242);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#main_menu{
+    width: 100%;
+    height:300px;
+    background: url(img/fundo.png) repeat-x;
+}
+
+#image_logo{
+    position: relative;
+    top: 38px;
+    left: 10%;
+}
+
+#item_nav{
+    position: absolute;
+    width: 780px;
+    top: -25px;
+    left: 700px;
+    font-size: 18px;
+}
+
+#item_nav ul li{
+    list-style: none;
+    float: left;
+}
+#item_nav ul a{
+    list-style: none;
+    text-decoration: none;
+    display: block;
+    padding: 0 0.6em;
+    text-transform: uppercase;
+    color: #b06c14;
+    line-height: 2.2em;
+}
+
+#item_nav a:hover{
+    background-color: #b06c14 ;
+    color: #28241c;
+}
+#clear{
+    clear: both;
+}
+#container{
+    width: 1400px;
+    height: 930px;  
+    top: 11%;
+    left: 10%;
+    position: absolute;
+    background: url(img/fundo-rodape.png) no-repeat bottom center;
+    
+    
+}
+
+#contens_one{
+    width: 900px;
+    float: left;
+
+}
+
+#contens_two{
+    width: 430px;
+    height: 350px;
+    float: right;
+    
+
+}
+#testimony{
+    text-align: center;
+    margin-bottom: -18px;
+}
+
+#one_cards{
+    width: 900px;
+}
+
+#card_one{
+    width: 430px;
+    margin-left: 30px;
+    float: left;
+    font-size: 17px;
+
+}
+
+#card_two{
+    width: 430px;
+    float: right;
+    font-size: 17px;
+    
+}
+
+.title_cards{
+    font-size:  17px;
+    color: rgb(5, 153, 5);
+}
+
+#one_topics a{
+    font-size: 18px;
+    color: #b06c14;
+    text-decoration: none;
+}
+
+#one_topics a:hover, #read_more:hover{
+    text-decoration: underline;
+}
+
+
+#read_more{
+   
+    color: #b06c14;
+    text-decoration: none;
+}
+
+/*COLUNA 2*/
+#reservation{
+    padding: 25px;
+    background: #b19f6c;
+    margin-bottom: -18px;
+}
+
+.title_column{
+    color: #7a582a;
+}
+#button_position{
+    display: flex;
+    justify-content: center;
+
+}
+
+#button_aval{
+    width: 330px;
+    height: 50px;
+    font-size: 19px;
+    border: none;
+    background-color: #8a7a4c;
+    padding: 15px;
+    color: white;
+}
+
+#gallery{
+    width: 430px;
+    height: 355px;
+    padding: 10px 0px 0px 25px;
+    box-sizing: border-box;
+    background-color: #ccbf9d;
+}
+
+#container-photos{
+    margin-top: -40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.frame-photo{
+    position: absolute;
+
+}
+.frame-photo img{
+    margin: 20px 15px 10px 15px;
+}
+.position-photo{
+   margin: 35px 25px -30px 30px;
+
+}
+
+#clear{
+    clear: both;
+}
+
+footer{
+    top: 730px;
+    position: relative;
+    width: 100%;
+    height: 40%;
+
+}
+
+
+#itens-footer{
+    margin: 0 auto;
+    width: 650px;
+
+    text-align: center;
+
+}
+
+#itens-footer ul li{
+    list-style: none;
+
+    float: left;
+    margin: 15px;
+}
+
+#itens-footer a{
+    color: #b06c14;
+    text-decoration: none;
+    line-height: 1.2em;
+    padding: 2px;
+}
+#itens-footer a:hover{
+    text-decoration: underline;
+    color: #b06c14;
+}
+
+strong{
+    color: #b06c14;
+}
+
