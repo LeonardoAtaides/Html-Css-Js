@@ -1,0 +1,90 @@
+#container{
+    background: #dcdcdc;
+    height: 600px;
+    display: flex;
+    
+
+} 
+
+.item1{
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    background: white;
+    color: rgb(0, 0, 0);
+    border:1px solid gray;
+    background: aquamarine;
+
+    flex-grow: 0 ;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+.item2{
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    background: white;
+    border:1px solid gray;
+    background: teal;
+
+    
+}
+
+.item3{
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    background: white;
+    border:1px solid gray;
+    background: purple;
+
+    /*Define a proporção de espaço ocupado por um item*/
+    flex-grow: 0 ;
+    
+}
+.item4{
+    width: 150px;
+    height: 100px;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    background: white;
+    border:1px solid gray;
+    background: red;
+
+    /*Define a proporção de espaço ocupado por um item*/
+    flex-grow: 0 ;
+    
+}
+.it1{
+    /*flex-grow: 1 */
+    flex-shrink: 1;
+}
+.it2{
+    /*flex-grow: 2;*/
+    flex-shrink: 2;
+}
+
+.it3{
+    /*flex-grow: 3;*/
+    flex-shrink: 3;
+}
+.it4{
+    /*flex-grow: 4;*/
+    flex-shrink: 9;
+    }   
+    
+
+.ordem1{
+    order: 1;
+}
+.ordem2{
+    order: 2;
+}
+.ordem3{
+    order: 3;
+}
+.ordem4{
+    order: 4;
+}

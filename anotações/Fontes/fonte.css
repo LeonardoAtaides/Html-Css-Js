@@ -1,0 +1,10 @@
+@font-face{
+    font-family: "Designer"; 
+    src: url("DESIGNERRegular.woff");
+}
+
+body{
+    font-family: "Designer";
+    text-align: center;
+    font-size: 45px;
+}

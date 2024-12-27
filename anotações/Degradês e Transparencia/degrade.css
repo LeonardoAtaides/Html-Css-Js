@@ -1,0 +1,27 @@
+#Transparencia{
+    width: 300px;
+    height: 300px;
+    background: url(camera.png) rgb(18, 148, 153);
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 0px 40px 40px 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#Transparencia h1{
+    background: rgb(255, 255, 255, 0.5);
+    color: black;
+}
+
+#gradient{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to bottom,rgb(34, 172, 172), rgb(27, 173, 173), rgb(24, 118, 155));
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 40px 0px 40px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
