@@ -665,3 +665,32 @@ apenas colocando uma class="h1", exemplo: <h5 class="h1">
 *Letras Minúsculas*: Deixa o texto todo em minúsculas, utiliza-se geralmente em <p> usando (class text-uppercase), exemplo: <p class="text-lowercase">
 
 *Primeira Letra Maiúscula*: Deixa a primeira letra em maiúscula, utiliza-se geralmente em <p> usando (class text-capitalize), exemplo: <p class="text-capitalize">
+
+*Texto centralizado* : Deixa o texto no centro da tela, utiliza-se <class="text-center">
+*Texto a direita* : Deixa o texto no centro da tela, utiliza-se <class="text-right">
+*Texto a esquerda* : Deixa o texto no centro da tela, utiliza-se <class="text-left">
+
+*Texto Justificado* : Deixa o texto com um exibição maior evitando de quebrá-lo, utiliza-se
+<class="text-justify">
+
+*Texto Truncado* : Corta o texto em certa parte, mostrando de acordo com o tamanho de exibição do layout, utiliza-se geralmente em <p>, exemplo: <p class="text-truncate">
+
+*Bloco de Citação*: Deixa um bloco em destaque, utiliza-se a tag <blockquote>, exemplo:
+<blockquote class="bockquote">
+
+*Bloco de Citação com Footer*: Deixa um bloco em destaque com um rodapé destacando o autor, utiliza-se as tag <blockquote>, <footer> e <cite>, exemplo: <footer class="bockquote-footer">
+
+*Lista sem estilo*: Essa class retira • da lista, utilizando <ul class="list-unstyled">
+
+*Itens da lista na mesma linha*: Deixa os itens da lista um ao lado do outro, utilizando,
+<ul class="list-inline"> e logo após acrescentando nós <li class="list-inline-item"> para
+identificar o item
+
+# Alinhamento Responsivo
+É responsável por fazer o alinhamento de acordo com tamanho da tela a partir do critério >= tamanho da tela, neste caso no texto <p>
+utilizando: <p class="text-(tela)-(alinhamento)">
+**| tela:sm, md, lg, xl  | alinhamento: let, center, right |**
+  |     *Small* : Sm     |
+  |     *Medium* : md    |
+  |     *Large* : lg     |
+  |  *Extra Large* : xl  |
