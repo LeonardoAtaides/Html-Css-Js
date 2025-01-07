@@ -690,7 +690,34 @@ identificar o item
 É responsável por fazer o alinhamento de acordo com tamanho da tela a partir do critério >= tamanho da tela, neste caso no texto <p>
 utilizando: <p class="text-(tela)-(alinhamento)">
 **| tela:sm, md, lg, xl  | alinhamento: let, center, right |**
-  |     *Small* : Sm     |
-  |     *Medium* : md    |
-  |     *Large* : lg     |
-  |  *Extra Large* : xl  |
+
+  |     *Small* : Sm    |  Celular   |
+  |     *Medium* : md   |   Tablet   |
+  |     *Large* : lg    |  Nootebook |
+  |  *Extra Large* : xl | Computador |
+**Com Float:**
+utilizando: <div class="float-(tela)-(alinhamento)">
+
+# BLock para em Inlline em BootStrap
+Transforma um elemento block em um elemento inline, utilizando:
+                <h1 class="d-inline">
+
+                
+# BLock para em Inline em BootStrap
+Transforma um elemento block em um elemento inline, utilizando:
+                <h1 class="d-inline">
+        **Para realizar o inverso basta utilizar:**
+                <span class="d-block">
+
+# Float em BootStrap
+utiliza-se apenas:
+ <div class="float-left"> | <div class="float-right"> | <div class="float-none">
+             |-> flutua a esquerda      |-> flutua a direita        |-> não flutua
+
+# Clear Both em BootStrap
+Utiliza-se em elementos pai de floats, sendo <div class="clearfix">
+
+# Posionamento Fixo Top e Bottom em BootStrap
+Utiliza-se para deixa um elemento fixo na tela, referente ao scroll do mouse, exemplo:
+            <h1 class="fixed-top">  | <h1 class="fixed-bottom">
+
