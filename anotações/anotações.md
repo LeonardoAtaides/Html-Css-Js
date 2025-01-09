@@ -721,3 +721,35 @@ Utiliza-se em elementos pai de floats, sendo <div class="clearfix">
 Utiliza-se para deixa um elemento fixo na tela, referente ao scroll do mouse, exemplo:
             <h1 class="fixed-top">  | <h1 class="fixed-bottom">
 
+# Colar no Topo Sticky em BootStrap
+Usa-se para colar um elemento que era fixo quando feita a rolagem depois dele ele gruda na parte definida tendo apenas o *topo*, utiliza-se:
+<h1 class="sticky-top">
+
+# Cores em BootStrap
+Sendo utilizado para definir cores em diversos elementos
+
+Azul - *class="text-primary"*
+Cinza - *class="text-secondary"*
+Verde - *class="text-success"*
+Ciano - *class="text-info"*
+Amarelo - *class="text-warning"*
+Vermelho - *class="text-primary"*
+Cinza Claro - *class="text-light"*
+Cinza Escuro - *class="text-dark"*
+Branco - *class="text-white"*
+Preto Clarida de 50% - *class="text-dark-50"*
+Branco Clarida de 50% - *class="text-dark-50"*
+
+# Backgrounds em BootStrap
+Sendo utilizado para definir cores de fundo em diversos elementos
+
+Background Azul - *class="bg-primary"*
+Background Cinza - *class="bg-secondary"*
+Background Verde - *class="bg-success"*
+Background Ciano - *class="bg-info"*
+Background Amarelo - *class="bg-warning"*
+Background Vermelho - *class="bg-primary"*
+Background Cinza Claro - *class="bg-light"*
+Background Cinza Escuro - *class="bg-dark"*
+Background Branco - *class="bg-white"*
+BackgroundTransparente - *class="bg-transparent"*
