@@ -753,3 +753,29 @@ Background Cinza Claro - *class="bg-light"*
 Background Cinza Escuro - *class="bg-dark"*
 Background Branco - *class="bg-white"*
 BackgroundTransparente - *class="bg-transparent"*
+
+# Margin em BootStrap
+Sendo utilizado para definir uma margem no elemento, utilizando classes:
+**Utiliza-se a unidade de medida REM**
+*mt* -> Margin Top
+*mb* -> Margin Bottom
+*ml* -> Margin Left
+*mr* -> Margin Right
+*mx* -> Margin no eixo x (horizontal) esquerda/ direita
+*my* -> Margin no eixo y (horizontal) top/ bottom
+*m* -> Margin em todos os lados 
+**A definir um valor para a margem de 0 até 5**
+            Ex:<p class="mt-2">
+
+# Padding em BootStrap
+Sendo utilizado para definir uma padding no elemento, utilizando classes:
+**Utiliza-se a unidade de medida REM**
+*pt* -> Padding Top
+*pb* -> Padding Bottom
+*pl* -> Padding Left
+*pr* -> Padding Right
+*px* -> Padding no eixo x (horizontal) esquerda/ direita
+*py* -> Padding no eixo y (horizontal) top/ bottom
+*p* -> Padding em todos os lados 
+**A definir um valor para a margem de 0 até 5**
+            Ex:<p class="p-2">
