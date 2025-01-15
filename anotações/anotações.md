@@ -779,3 +779,42 @@ Sendo utilizado para definir uma padding no elemento, utilizando classes:
 *p* -> Padding em todos os lados 
 **A definir um valor para a margem de 0 até 5**
             Ex:<p class="p-2">
+
+# Witdh em BootStrap
+Sendo utilizado para definir uma largura aos elementos utilizando
+classes:
+*w-25%* -> Ocupa 25% da área total
+*w-50%* -> Ocupa 50% da área total
+*w-75%* -> Ocupa 75% da área total
+*w-100%* -> Ocupa 100% da área total
+*w-auto* -> Ocupa de forma automática a área
+Ex: <div class="w-50">
+
+# Height em BootStrap
+Sendo utilizado para definir uma altura aos elementos utilizando
+classes:
+*h-25%* -> Ocupa 25% da área total
+*h-50%* -> Ocupa 50% da área total
+*h-75%* -> Ocupa 75% da área total
+*h-100%* -> Ocupa 100% da área total
+*h-auto* -> Ocupa de forma automática a área
+Ex: <div class="h-50">
+
+# Bordas em BootStrap
+Sendo utilizado para definir uma borda aos elementos utilizando
+classes:
+*border*        -> todas as bordas
+*border-top*    -> borda superior
+*border-bottom* -> borda inferior
+*border-right*  -> borda direita
+*border-left*   -> borda esquerda
+**Cores de bordas: border-(cor)**
+Azul - *border-primary*
+Cinza - *border-secondary*
+Verde - *border-success*
+Ciano - *border-info*
+Amarelo - *border-warning*
+Vermelho - *border-danger*
+Cinza Claro - *border-light*
+Cinza Escuro - *border-dark*
+Branco - *border-white"*
