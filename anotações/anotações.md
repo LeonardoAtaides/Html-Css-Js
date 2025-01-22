@@ -818,3 +818,24 @@ Vermelho - *border-danger*
 Cinza Claro - *border-light*
 Cinza Escuro - *border-dark*
 Branco - *border-white"*
+
+# Bordas Arrendondadas em BootStrap
+Sendo utilizado para definir cantos arredondados nos elementos
+classes:
+*rounded* - Arrendonda o elemento inteiro
+*rounded-top* - Arrendonda apenas o topo
+*rounded-right* - Arrendonda apenas o lado direito
+*rounded-left* - Arrendonda apenas o lado esquerdo
+*rounded-circle* - Cria uma espécie de circulo 
+
+# Media Queries
+all – todos os dispositivos
+aural – sintetizadores de voz
+braille – leitores de Braille
+embossed – impressoras de Braille
+handheld – dispositivos de mão. Por exemplo: celulares com telas pequenas.
+print – impressoras convencionais
+projection – apresentações de slides
+screen – monitores coloridas
+tty – teleimpressores e terminais
+tv – televisores
