@@ -828,14 +828,29 @@ classes:
 *rounded-left* - Arrendonda apenas o lado esquerdo
 *rounded-circle* - Cria uma espécie de circulo 
 
-# Media Queries
-all – todos os dispositivos
-aural – sintetizadores de voz
-braille – leitores de Braille
-embossed – impressoras de Braille
-handheld – dispositivos de mão. Por exemplo: celulares com telas pequenas.
-print – impressoras convencionais
-projection – apresentações de slides
-screen – monitores coloridas
-tty – teleimpressores e terminais
-tv – televisores
+# Media Queries no BootStrap
+Usado para fazer exebições diferentes baseado no tamanho do dispositivo, no link do css
+
+De forma manual usa-se assim: <link rel="stylesheet" media="all" href="all.css">
+
+Tipo de Mídias:
+*all* - todos os dispositivos
+*aural* - sintetizadores de voz
+*braille* - leitores de Braille
+*embossed* - impressoras de Braille
+*handheld* - dispositivos de mão. Por exemplo: celulares com telas pequenas.
+*print* - impressoras convencionais
+*projection* - apresentações de slides
+*screen* - monitores coloridas
+*tty* - teleimpressores e terminais
+*tv* - televisores
+
+Resoluções de Telas:
+*320 pixels* - Smartphones no modo retrato.
+*480 pixels* - Smartphones no modo paisagem.
+*600 pixels* - Tablets pequenos. Ex: Amazon Kindle (600×800)
+*768 pixels* - Tablets maiores em modo retrato. Ex: iPad (768×1024)
+*1024 pixels* - Tablets maiores em modo paisagem, monitores antigos.
+*1200* pixels - Monitores wide.
+
+**UTILIZANDO MEDIA QUERIES AGILIZA O PROCESSO**
