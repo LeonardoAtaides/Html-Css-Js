@@ -828,9 +828,8 @@ classes:
 *rounded-left* - Arrendonda apenas o lado esquerdo
 *rounded-circle* - Cria uma espécie de circulo 
 
-# Media Queries no BootStrap
+## Media Types
 Usado para fazer exebições diferentes baseado no tamanho do dispositivo, no link do css
-
 De forma manual usa-se assim: <link rel="stylesheet" media="all" href="all.css">
 
 Tipo de Mídias:
@@ -854,3 +853,14 @@ Resoluções de Telas:
 *1200* pixels - Monitores wide.
 
 **UTILIZANDO MEDIA QUERIES AGILIZA O PROCESSO**
+# Media Queries no BootStrap
+Usado para a responsividade do site usa-se o comando dentro do css
+Ex:
+ <style>                                     _______________________________________
+        /*   (Layout para Celular)    */    | Oque define que o body vermelho       |
+        @media(min-width: 576px) {          | será aplicado quando a largura        |
+            body {                          | for maior que 576px como estabelecido |
+                background: red;            | se menor não terá a cor vermelha      |
+            }                               |_______________________________________|
+        }
+</style>
