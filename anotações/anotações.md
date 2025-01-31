@@ -852,7 +852,6 @@ Resoluções de Telas:
 *1024 pixels* - Tablets maiores em modo paisagem, monitores antigos.
 *1200* pixels - Monitores wide.
 
-**UTILIZANDO MEDIA QUERIES AGILIZA O PROCESSO**
 # Media Queries no BootStrap
 Usado para a responsividade do site usa-se o comando dentro do css
 Ex:
@@ -863,4 +862,28 @@ Ex:
                 background: red;            | se menor não terá a cor vermelha      |
             }                               |_______________________________________|
         }
-</style>
+/*  DEFINE QUE DENTRO DE 576 A 767.98 O BODY VAI SER AZUL */ 
+        @media(min-width: 576px) and (max-width: 767.98px) {
+            body {
+                background: blue;
+            }
+        }
+</style>    
+        *ONDE O MIN-WIDTH DEFINE DE ONDE COMECA E MAX-WIDTH ATÉ ONDE VAI*
+
+# Botões em BootStrap
+formatação padrão para usar um botão com bootstrap: *class="btn"*
+Formatação específicas: 
+**USADAS ASSIM: CLASS:"btn btn-primary**
+*btn-primary* : Botão Azul
+*btn-secondary* : Botão Cinza
+*btn-success* : Botão Verde
+*btn-info* : Botão Ciano
+*btn-warning* : Botão Amarelho
+*btn-danger* : Botão Vermelho
+*btn-light* : Botão Branco
+*btn-dark* : Botão Preto
+*btn-link* : Deixa com aspecto de link
+
+## Botões com Contorno
+Usa-se a formatão: *class="btn btn-outline-cor*
