@@ -887,3 +887,70 @@ Formatação específicas:
 
 ## Botões com Contorno
 Usa-se a formatão: *class="btn btn-outline-cor*
+
+## Tamanho dos Botões
+opções de tamanho: 
+*btn-lg* - Botão Grande
+*btn-sm* - Botão Pequeno
+*btn-block* - Deixa o botão ocupando a tela toda
+
+## Estado dos Botões
+*btn* - Normal
+*active* - Ativo
+*disable* - Inativo
+*data-toggle="button"* - Alterna de Normal para Ativo
+
+## Grupo de Botões na Horizontal
+Uni vários botões em uma espécie de "barra de navegação", usando
+a *class="btn-group"*, na div em que os botões se encontram
+Ex:
+<div class="btn-group">
+    <button class="btn btn-info">Esquerda</button>
+    <button class="btn btn-danger">Centro</button>
+    <button class="btn btn-warning">Direita</button>
+</div>
+
+## Grupo de Botões na Vertical
+Uni vários botões em uma espécie de "barra de navegação", usando
+a *class="btn-group-vertical"*, na div em que os botões se encontram
+Ex:
+<div class="btn-group-vertical">
+    <button class="btn btn-secondary" type="button" >Topo</button>
+    <button class="btn btn-dark" type="button" >Meio</button>
+    <button class="btn btn-info" type="button" >Base</button>
+</div>
+
+## Toolbar de Botões
+Uni grupos de botões em uma espécie de "barra de navegação", usando
+a *class="btn-toolbar"*, na div mais exterior em que os botões se encontram
+Ex:
+<div class="btn-toolbar">
+    <div class="btn-group">
+        <button class="btn btn-secondary">1</button>
+        <button class="btn btn-dark">2</button>
+        <button class="btn btn-info">3</button>
+    </div>
+    <div class="btn-group">
+        <button class="btn btn-secondary">4</button>
+        <button class="btn btn-dark">5</button>
+        <button class="btn btn-info">6</button>
+    </div>
+</div>
+
+## Botões Dropdown
+Permite dentro de um botão mostrar várias opções usando:
+*class="dropdawn"* na div central e exterior
+No botão usa-se *class="dropdawn-toggle"* e *data-toggle="dropdawn* 
+Na div de links que deseja exibir dentro do botão usa-se *class="dropdawn-menu* 
+Nos itens *class="dropdawn-item1"* 
+Possivel usar um divisor com uma div entre os links, *class="dropdawn-divider"*
+
+Ex:
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" >Clique</button>
+    <div class="dropdown-menu">
+        <a href="#" class="dropdown-item">Link 1</a>
+        <a href="#" class="dropdown-item">Link 2</a>
+        <a href="#" class="dropdown-item">Link 3</a>
+    </div>
+</div>
