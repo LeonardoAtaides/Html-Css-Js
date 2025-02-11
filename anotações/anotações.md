@@ -954,3 +954,40 @@ Ex:
         <a href="#" class="dropdown-item">Link 3</a>
     </div>
 </div>
+
+# Barra de Navegação em BootStrap
+Define barras de navegação por meio de classes padrões:
+*nav* - para o elemento mais ao exterior (div)
+*nav-item* - para o elemento identado (li)
+*nav-link* - para o link dentro do elemento identado (a)
+Ex:
+<div class="nav">
+    <li class="nav-item">
+        <a href="" class="nav-link">Home</a>
+    </li>
+</div>
+
+*nav-pills* - sendo usado na div mais exterior define como página marcada, no elemento
+utiliza a *classe="active"*
+Ex:
+<ul class="nav nav-pills">
+    <li class="nav-item">
+        <a href="" class="nav-link active">Home</a>
+    </li>
+</ul>
+**CRIA UM PADDING EM VOLTA DO NAV**
+
+*nav-tabs* sendo usado na div mais exterior define também como página marcada, no elemento
+utiliza a *classe="active"*
+Ex:
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a href="" class="nav-link active">Home</a>
+    </li>
+</ul>
+**CRIA UM MARCADOR COMO UMA ESPECIE DE PASTA**
+
+## Opções de alinhamento
+*justify-content-center* - Deixa a Barra de Nav ao centro
+*justify-content-end* - Deixa a Barra de Nav a direita
+*flex-column* - Deixa a barra de Nav na Horizontal
