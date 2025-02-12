@@ -955,11 +955,11 @@ Ex:
     </div>
 </div>
 
-# Barra de Navegação em BootStrap
+# Barra de Navegação Com Abas em BootStrap
 Define barras de navegação por meio de classes padrões:
 *nav* - para o elemento mais ao exterior (div)
 *nav-item* - para o elemento identado (li)
-*nav-link* - para o link dentro do elemento identado (a)
+*nav-link* - para o link dentro do elemento identado (a) **Podendo deixar active e disabled**
 Ex:
 <div class="nav">
     <li class="nav-item">
@@ -991,3 +991,58 @@ Ex:
 *justify-content-center* - Deixa a Barra de Nav ao centro
 *justify-content-end* - Deixa a Barra de Nav a direita
 *flex-column* - Deixa a barra de Nav na Horizontal
+
+# Barra de Navegação Simples em BootStrap
+Utilizado para combinar uma logo e a barra de navegação, sendo utilizado dentro de um <nav>
+com a classe principal, *class="navbar"*, Combinado junto com:
+
+*class="navbar-nav"* - É utilizado para definir dentro da ul onde será aplicado a barra de nagação é logo após nos <li> usa-se *class="nav-item"*, <a> usa *class="nav-link"*
+
+*class="navbar-brand"* - Identifica o elemento como uma logo
+*class="navbar-expand-sm"* - Define o tamanho da barra de navegação
+*class="navbar-dark"* - Define a cor do texto dentro da navegação
+*class="navbar-dark"* - Define a cor de funfo dentro da navegação
+**Usando o ml-auto(margin-left) empurrou os links de nagação para o canto**
+Ex:
+<h2 align="center">Barra de Navegação simples</h2>
+ <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <!--Logo-->
+    <a href="" class="navbar-brand">Chalé Hotel</a>
+    <!--navegação-->
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Sobre</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Serviços</a>
+    </ul>
+</nav>
+
+# Barra de Navegação com Menu Responsivo em BootStrap
+Permite esconder os links de navegação em um icone, onde clicando pode se expandir é mostrar as opções, mas ele depende da class="navbar-expand-sm" definida na tag <nav>, onde so aparecerá quando a tela for *Small(Celular) - sm*
+Ex:
+                        |-> Definindo quando aparecerá o menu responsivo no caso *Small*
+<nav class="navbar navbar-expand-sm">
+    <a href="" class="navbar-brand">Chalé Hotel</a>
+
+Para definir o icone do menu cria um tag <button> e <span>, no button passa as seguintes classes:
+*class="navbar-toggler"* - 
+*data-toggle="collapse"* -
+*data-target="#nav-target"* -
+
+No Span passa as seguintes classes:
+*navbar-toggler-icon* - Para criar o icone
+
+<button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+    <span class="navbar-toggler-icon"></span>
+</button>
+
+    <!--navegação-->
+    <div class="collapse navbar-collapse" id="nav-target">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Sobre</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Serviços</a>
+        </ul>
+    </div>
+</nav>
+
+

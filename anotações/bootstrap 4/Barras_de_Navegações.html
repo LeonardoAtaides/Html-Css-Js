@@ -10,8 +10,7 @@
 
     <title>Navs - Bootstrap</title>
   </head>
-  <body style="padding-bottom: 200px; margin: 0 auto; width: 700px;">
-
+  <body>
     <!--Navegação
     Tipos de Navegação
         nav-pills
@@ -62,17 +61,50 @@
     </ul><br><br>
 
     <h3 align="center">Na Horizontal</h3>
-    <ul class="nav flex-column">
+    <ul class="nav nav-pills flex-column">
         <li class="nav-item">
-            <a href="" class="nav-link">Home</a>
+            <!--Menu Marcado como ativado-->
+            <a href="" class="nav-link active">Home</a>
         </li>
         <li class="nav-item">
-            <a href="" class="nav-link">Contato</a>
+            <!--Menu Marcado como desativado-->
+            <a href="" class="nav-link disabled">Contato</a>
         </li>
         <li class="nav-item">
             <a href="" class="nav-link">Sobre</a>
         </li>
-    </ul>
+    </ul><br><br>
+
+    <h2 align="center">Barra de Navegação simples</h2>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <!--Logo-->
+        <a href="" class="navbar-brand">Chalé Hotel</a>
+        <!--navegação-->
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Sobre</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Serviços</a>
+        </ul>
+    </nav><br>
+
+    <h2 align="center">Barra de Navegação com Menu Responsivo</h2>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <!--Logo-->
+        <a href="" class="navbar-brand">Chalé Hotel</a>
+        <!--Menu Responsivo-->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--navegação-->
+        <div class="collapse navbar-collapse" id="nav-target">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Serviços</a>
+            </ul>
+        </div>
+    </nav>
 
 
 
