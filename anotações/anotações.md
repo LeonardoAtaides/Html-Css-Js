@@ -955,6 +955,8 @@ Ex:
     </div>
 </div>
 
+## Botões Dropdown com Menu
+
 # Barra de Navegação Com Abas em BootStrap
 Define barras de navegação por meio de classes padrões:
 *nav* - para o elemento mais ao exterior (div)
@@ -1024,9 +1026,9 @@ Ex:
     <a href="" class="navbar-brand">Chalé Hotel</a>
 
 Para definir o icone do menu cria um tag <button> e <span>, no button passa as seguintes classes:
-*class="navbar-toggler"* - 
-*data-toggle="collapse"* -
-*data-target="#nav-target"* -
+*class="navbar-toggler"* - Define a forma de navegação
+*data-toggle="collapse"* - Complementa a formatação para ocultar a nav
+*data-target="#nav-target"* - Id para relacionar o Botão com a Navegação
 
 No Span passa as seguintes classes:
 *navbar-toggler-icon* - Para criar o icone
@@ -1035,7 +1037,15 @@ No Span passa as seguintes classes:
     <span class="navbar-toggler-icon"></span>
 </button>
 
-    <!--navegação-->
+Logo após cria as abas de navegação passando a classes para a <div>:
+*class="collapse navbar-collapse"* - Para definir o estilo da negação
+*id="nav-target"* - Para linkar com o botão
+
+Com isso dentro da <ul >passa as classes:
+*class="navbar-nav ml-auto"* - Para definir o estilo da negação e uma margem
+Dentro das <li> passa:
+*class="nav-item"* e  class="nav-link"
+Ex:
     <div class="collapse navbar-collapse" id="nav-target">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a href="" class="nav-link">Home</a></li>
@@ -1043,6 +1053,6 @@ No Span passa as seguintes classes:
             <li class="nav-item"><a href="" class="nav-link">Serviços</a>
         </ul>
     </div>
-</nav>
+
 
 
