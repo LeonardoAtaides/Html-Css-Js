@@ -956,6 +956,19 @@ Ex:
 </div>
 
 ## Botões Dropdown com Menu
+Ex:
+<ul class="navbar-nav ml-auto">
+    <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+    <li class="nav-item"><a href="" class="nav-link">Sobre</a></li>
+    <li class="nav-item dropdown-toggle">
+        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Serviços</a>
+        <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Serviço 1</a>
+            <a href="# "class="dropdown-item">Serviço 2</a>
+            <a href="# "class="dropdown-item">Serviço 3</a>
+        </div>
+    </li>
+</ul>
 
 # Barra de Navegação Com Abas em BootStrap
 Define barras de navegação por meio de classes padrões:
@@ -1055,4 +1068,56 @@ Ex:
     </div>
 
 
+# Cores de Fundo em BootStrap
+Para definir a cor de fundo de um elemento
+*bg-primary* : Botão Azul
+*bg-secondary* : Botão Cinza
+*bg-success* : Botão Verde
+*bg-info* : Botão Ciano
+*bg-warning* : Botão Amarelho
+*bg-danger* : Botão Vermelho
+*bg-light* : Botão Branco
+*bg-dark* : Botão Preto
+*bg-link* : Deixa com aspecto de link
 
+# Alinhamento da Barra de Navegação em BootStrap
+Serve para definir a posição da barra de navegação
+*fixed-top* -  Mantém fixada no topo
+*fixed-bottom* - Mantém fixada na parte inferior
+*sticky-top* - Ao tocar na parte superior de rolagem se mantém fixa
+
+# Listas em BootStrap
+Ajuda a estilizar as listas <ul>, usando as classes
+*list-group* - Usada como padrão na <ul>
+*list-group-item* -Usada como padrão na <li>
+**Quando Unidas Formam um especie de tabela com bordas arrendondadas**
+**Podem ser definidas como ativas com *active***
+*list-group-flush* - Usada na <ul>, define um lista simples sem bordas aos contos
+
+## Cores
+Para definir cores nos itens da lista com a *class="list-group-item-opçao"*
+*list-group-item-primary* : item Azul
+*list-group-item-secondary* : item Cinza
+*list-group-item-success* : item Verde
+*list-group-item-info* : item Ciano
+*list-group-item-warning* : item Amarelho
+*list-group-item-danger* : item Vermelho
+*list-group-item-light* : item Branco
+*list-group-item-dark* : item Preto
+
+# Badge - "Notificação de Mensagens" em BootStrap
+Usa-se o a *class="badge-(opções)*
+ex:
+<li class="list-group-item">Caixa Entrada <span class="badge badge-info">69</span></li>
+
+# Formularios em BootStrap
+Usado para estilizae formularios, usando as classes:
+*form-group* - Define um espaçamento entre um input e outro, usado na <div> mais exterior ou seja principal
+
+*form control* - Usado para definir uma formatação dos inputs, usado geralmente no <label>
+
+*form-control-sm* - Usado para definir o tamanho da tela, SM, LG, Xl...
+
+*form-text* - Usado para formatar texto em um formulário
+
+*form-control-file* - Define dentro do input do tipo *file* para definir uma estilização
