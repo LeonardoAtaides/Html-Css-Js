@@ -17,9 +17,19 @@
         border: 1px solif #f94646;
       }
 
+      .marcador2{
+        background: #fe9d9d;
+        border: 1px solif #f94646;
+        height: 120px;
+      }
+
       .marcador-container{
         background: #5bf946;
         border: 1px solid #36ae26;
+      }
+
+      .borda{
+        border: 1px solid blue;
       }
 
     </style>
@@ -97,29 +107,70 @@
 
       <h2>offset</h2>
       <div class="row">
-        <div class="marcador col-md-6 order- offset">
+        <div class="marcador col-md-6 order- offset-md-3">
           Login...
         </div>
       </div>
 
       <h2>offset múltiplos alinhamentos</h2>
       <div class="row">
-        <div class="marcador col-md-6 order- offset">
-        Conteúdo 1
-        </div>
 
-        <div class="marcador col-md-6 order- offset">
-          Conteúdo 2
-          </div>
+        <div class="marcador col-md-3 order-1 offset-md-3">Conteúdo 1</div>
+        <div class="marcador col-md-3 order-2 offset-md-3">Conteúdo 2</div>
+
       </div>
 
       <h2>Aninhamento</h2>
       <div class="row">
         <div class="col-mf-6 marcador col-md-6 order- offset">
-        
+        colf-md-6
+        <div class="row">
+          <div class="col-md-9 marcador">Conteúdo</div>
+          <div class="col-md-4 marcador">Conteúdo 2</div>
         </div>
+        </div>
+      </div>
+      </div><br><br>
 
-    </div>
+        <div class="container">
+          <h2>Alinhamento vertical</h2>
+          <div class="marcador2 row align-items-center">
+            <div class="col borda">Área 1</div>
+            <div class="col borda">Área 2</div>
+            <div class="col borda">Área 3</div>
+          </div><br>
+    
+          <h2>Alinhamento vertical individual</h2>
+          <div class="marcador2 row">
+            <div class="col borda align-self-start">Área 1</div>
+            <div class="col borda align-self-center">Área 2</div>
+            <div class="col borda align-self-end">Área 3</div>
+          </div><br>
+    
+          <h2>Alinhamento horizontal colunas</h2>
+          <div class="row justify-content-center">
+            <div class="marcador2 col-2">Área 1</div>
+            <div class="marcador2 col-2">Área 2</div>
+            <div class="marcador2 col-2">Área 3</div>
+          </div>
+    
+          <h2>Distribuição</h2>
+          <div class="row borda justify-content-around">
+            <div class="marcador2 col-2">Área 1</div>
+            <div class="marcador2 col-2">Área 2</div>
+            <div class="marcador2 col-2">Área 3</div>
+            <div class="marcador2 col-2">Área 4</div>
+            <div class="marcador2 col-2">Área 5</div>
+          </div><br>
+    
+          <h2>Removendo espaçamento</h2>
+          <div class="row no-gutters">
+            <div class="borda col-2">Área 1</div>
+            <div class="borda col-2">Área 2</div>
+            <div class="borda col-2">Área 3</div>
+          </div>
+
+      </div>
    
 
   
