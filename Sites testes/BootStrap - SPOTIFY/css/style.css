@@ -206,3 +206,7 @@ footer ul li{
     transform: rotate(30deg);
     padding-left: 80px;
 }
+
+.carousel-control-next, .carousel-control-prev{
+    width: 5%;
+}
