@@ -12,3 +12,13 @@ Ex: var Soma = 10 + 10;
 *Number* -  Armazenamento número inteiro, negativos, inteiros ou fracionados 
 *Boolean* - Permite o valor de estado, False ou True
 
+
+# Comandos:
+
+*alert()* -  Mostra uma caixa com uma mensagem definida pelo dev, pode ser utilizar variáveis também para mostrar o valor da variável.
+ex: alert("Olá, mundo!");
+
+*document.write()* - Escreve algo na página, pode ser utilizar variáveis também para mostrar valores.
+
+*console.log()* - Utilizado no processo de debug, para testar os valores de variáveis, atravez do console do navegador.
+
