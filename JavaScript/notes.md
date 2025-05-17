@@ -19,6 +19,22 @@ Ex: var Soma = 10 + 10;
 ex: alert("Olá, mundo!");
 
 *document.write()* - Escreve algo na página, pode ser utilizar variáveis também para mostrar valores.
+**É POSSIVEL CONCATENAR STRINGS COM O +**
+Ex: 
+var nome = 'Ataídes'; -> _define uma variável_
+
+document.write('<h1> Olá ' + nome +'</h1>');
+    |            |            |-> passa o nome da varoável
+    |            |-> passa a tag em html
+    |-> chama o comando
+
+**PODE SE PEDIR OS DADOS DO USUARIO COM O PROMPT()**
+Funciona como o input que recebe o valor digitado pelo usuário, pela caixa de mensagem exibida
+pelo navegador,_estes dados são salvos como strings_
+Ex: 
+var nome = prompt("Qual é o seu nome?"); -  _"Ataídes"_
+var idade = prompt("Qual é a sua idade?"); - _"19"_
+
 
 *console.log()* - Utilizado no processo de debug, para testar os valores de variáveis, atravez do console do navegador.
 
