@@ -12,6 +12,13 @@ Ex: var Soma = 10 + 10;
 *Number* -  Armazenamento número inteiro, negativos, inteiros ou fracionados 
 *Boolean* - Permite o valor de estado, False ou True
 
+## NULL 
+É declarada no momento sem valor, depois geralmente guarda um valor após ser atribuido.
+Ex var nome =_null_
+
+## UNDEFINED 
+É declarada sem valor, é utilizado quando não temos valor para uma variável
+Ex var nome =_undefined_
 
 # Comandos:
 
