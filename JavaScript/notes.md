@@ -45,3 +45,32 @@ var idade = prompt("Qual é a sua idade?"); - _"19"_
 
 *console.log()* - Utilizado no processo de debug, para testar os valores de variáveis, atravez do console do navegador.
 
+
+# If e Else
+If (condição){
+_Lógica_ 
+} else if_{
+_Lógica_
+} else {
+_Lógica_
+}
+
+# Operadores de comparação 
+Igual: == - verifica se os valores comparados são *iguais*
+Identifico: === - verifica se os valores são *iguais e do mesmo tipo*
+Diferente: != - verifica se os valores comparados são *diferentes*
+Não idêntico !== - Verifica se os valores comparados são *diferentes e de tipos diferentes*
+Menor < - Verifica se o valor da esquerda é *menor* que o valor da direita
+Maior > - Verifica se o valor da esquerda é *maior* que o valor da direita
+Menor <= - Verifica se o valor da esquerda é *menor ou igual* ao valor da direita
+Menor >= - Verifica se o valor da esquerda é *maior ou igual* ao valor da direita
+
+Ex:
+var num1 = prompt('Digite um número: ')
+var num2 = prompt('Digite mais um número: ')
+
+if(num1 == num2){
+document.write(+num1+' e '+num2+' são iguais!')
+} else{
+document.write(+num1+' e '+num2+' não são iguais!')
+}
