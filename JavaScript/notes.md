@@ -75,6 +75,17 @@ document.write(+num1+' e '+num2+' são iguais!')
 document.write(+num1+' e '+num2+' não são iguais!')
 }
 
+# Operadores Lógicos
+E = && - Verdadeiro se todas as expressões forem verdadeiras
+Ex:
+if(1 < 2 && 4 > 3){
+    document.write('Verdadeiro')
+}
+
+OU || - Verdadeirp se pelo menos uma das expressões for verdadeira
+NEGAÇÃO ! - Inverte o resultado da expressão de comparação
+
+
 # Troca de Tipo
 É possível alterar o tipo de uma variável, por exemplo, de string para número, usando o comando *parseInt()* ou *parseFloat()*, que convertem a string em número, e o comando *toString()* que converte o número em string.
 
@@ -89,5 +100,5 @@ v3 = parseFloat(v3)
 Ex:*toString()*
 var v1  = 10
 var v2  = 20
-
 document.write(v1.toString() + v2.toString())
+
