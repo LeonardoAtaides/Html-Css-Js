@@ -74,3 +74,20 @@ document.write(+num1+' e '+num2+' são iguais!')
 } else{
 document.write(+num1+' e '+num2+' não são iguais!')
 }
+
+# Troca de Tipo
+É possível alterar o tipo de uma variável, por exemplo, de string para número, usando o comando *parseInt()* ou *parseFloat()*, que convertem a string em número, e o comando *toString()* que converte o número em string.
+
+Ex:*parseInt()*
+var number = prompt('digite um número:')
+var number = parseInt(number)
+
+Ex:*parseFloat()*
+var v3  = 10.5
+v3 = parseFloat(v3)
+
+Ex:*toString()*
+var v1  = 10
+var v2  = 20
+
+document.write(v1.toString() + v2.toString())
