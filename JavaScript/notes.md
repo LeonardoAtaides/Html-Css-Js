@@ -49,7 +49,7 @@ var idade = prompt("Qual é a sua idade?"); - _"19"_
 # If e Else
 If (condição){
 _Lógica_ 
-} else if_{
+} else if{
 _Lógica_
 } else {
 _Lógica_
@@ -82,9 +82,24 @@ if(1 < 2 && 4 > 3){
     document.write('Verdadeiro')
 }
 
-OU || - Verdadeirp se pelo menos uma das expressões for verdadeira
-NEGAÇÃO ! - Inverte o resultado da expressão de comparação
+OU || - Verdadeiro se pelo menos uma das expressões for verdadeira
+if(1 > 2 || 3 == 3){
+    document.write('Verdadeiro')
+}else{
+    document.write('Falso')
+}
+       
+NEGAÇÃO ! - Inverte o resultado da expressão de comparação  
+if(1 > 2){
+    document.write('Verdadeiro')
+}else{
+    document.write('Falso')
+}
 
+# Operadores de Ternário
+É uma estrutura de decisão mais tem uma estrutura mais simples:
+var resultado = <condição> ? <verdadeiro> : <falso>
+**Recomendado apenas quando a condição é simples e não complexa.**
 
 # Troca de Tipo
 É possível alterar o tipo de uma variável, por exemplo, de string para número, usando o comando *parseInt()* ou *parseFloat()*, que convertem a string em número, e o comando *toString()* que converte o número em string.
