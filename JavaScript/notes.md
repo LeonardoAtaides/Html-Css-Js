@@ -117,3 +117,18 @@ var v1  = 10
 var v2  = 20
 document.write(v1.toString() + v2.toString())
 
+# Switch
+O Switch é uma estrutura de decisão que permite comparar um valor com vários valores, utilizado geralmente em menus
+Ex:
+var opcao = 2
+switch(opcao){
+    case 1:
+        //código
+        break;
+    case 2:
+        //código
+        break;
+    default:
+        //código
+        break;   
+}
