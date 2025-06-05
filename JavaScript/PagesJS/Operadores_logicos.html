@@ -6,11 +6,18 @@
     <title>Operadores Lógicos</title>
 
     <script>
-    
-    if(1 < 2 && 4 > 3){
-        document.write('Verdadeiro')
-    }
-        
+
+        var nota = prompt('Digite sua nota: ')
+        var faltas = prompt('Quantas faltas teve: ')
+
+        var media = 7
+        var faltas_max = 15
+
+        if(nota >= media && faltas <= faltas_max ){
+            document.write('Aprovado!')
+        } else{
+            document.write('Reprovado!')
+        }
     </script>
 </head>
 <body>
