@@ -96,6 +96,15 @@ if(1 > 2){
     document.write('Falso')
 }
 
+# Operadores Aritméticos
+Adição( + ) - soma dois valores
+Subtração ( - ) - Diferença entre valores
+Multiplicação ( * ) - Multiplica dois valores
+Divisão ( / ) - Divisão entre dois valores
+Módulo ( % ) - Resto da divisão entre dois valores
+Incremento ( ++ ) - Aumenta o valor de uma variável em 1
+Decremento ( -- ) - Diminui o valor de uma variável em 1
+
 # Operadores de Ternário
 É uma estrutura de decisão mais tem uma estrutura mais simples:
 var resultado = <condição> ? <verdadeiro> : <falso>
@@ -132,3 +141,4 @@ switch(opcao){
         //código
         break;   
 }
+
