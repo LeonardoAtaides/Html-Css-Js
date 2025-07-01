@@ -97,13 +97,48 @@ if(1 > 2){
 }
 
 # Operadores Aritméticos
+A ordem de precedência, executa de acordo com a prioridade
+Ex:
+10 + 5 - 5 * 2 / 2
+1- Multiplicação e subtraçãoo
+2 - Soma e divisão
 Adição( + ) - soma dois valores
+Ex:
+var n1 = 77
+var n2 = 700
+document.write(n1 + ' + ' + n2 + ' = '+ (n1 + n2))
+
 Subtração ( - ) - Diferença entre valores
+Ex:
+var n1 = 700
+var n2 = 77
+document.write(n1 + ' - ' + n2 + ' = '+ (n1 - n2))
+       
 Multiplicação ( * ) - Multiplica dois valores
+Ex:
+var n1 = 10
+var n2 = 7
+document.write(n1 + ' x ' + n2 + ' = '+ (n1 * n2))
+
 Divisão ( / ) - Divisão entre dois valores
+var n1 = 10
+var n2 = 2
+document.write(n1 + ' / ' + n2 + ' = '+ (n1 / n2))
+
 Módulo ( % ) - Resto da divisão entre dois valores
+var n1 = 10
+var n2 = 2
+document.write(n1 + ' % ' + n2 + ' = '+ (n1 % n2))
+
 Incremento ( ++ ) - Aumenta o valor de uma variável em 1
+var n1 = 10
+var n2 = 2
+document.write(n1 + ' + 1' + ' = '+ (++n1))
+
 Decremento ( -- ) - Diminui o valor de uma variável em 1
+var n1 = 10
+var n2 = 2
+document.write(n1 + ' - 1' + ' = '+ (--n1))
 
 # Operadores de Ternário
 É uma estrutura de decisão mais tem uma estrutura mais simples:
