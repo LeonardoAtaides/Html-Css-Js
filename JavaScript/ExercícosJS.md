@@ -68,4 +68,4 @@ else{
         classification = 'Obesidade grau III'
 }
 
-document.write(name + ' possui índice de massa corporal igual a ' + Imc.toFixed(2) + ' sendo classificado como ' + classification)
+document.write(name + ' possui índice de massa corporal igual a ' + Imc.toFixed(2) + ' sendo classificado como: ' + classification)
