@@ -177,3 +177,19 @@ switch(opcao){
         break;   
 }
 
+# Funções
+Encapsular um bloco de código com um objetivo definido, tendo um *retono*
+Ex:
+
+fuction calcularAreaTerreno(largura, comprimento){
+    var area = largura * comprimento
+    return area
+}
+
+*Funções tipo VOID*
+Quando chamada apenas irá processar algo
+Ex:
+
+function Imprimir(){
+    document.write('hello, Word')
+}
