@@ -29,3 +29,43 @@ document.write('Idoso')
 else{
 document.write('Idade inválida')
 }
+
+*CALCULAR O IMC, E MOSTRAR O RESULTADO EM PRINT*    
+
+var name = prompt('Digite seu nome: ')
+var height = prompt('Digite sua altuta em CM: ')
+var weight = prompt('Digite o seu peso:  ')
+
+height = (parseFloat(height)) / 100
+weight = parseFloat(weight)
+classification = null
+
+Imc = weight / (height * height)
+Imc = parseFloat(Imc)
+
+if( Imc < 16){
+    classification = 'Abaixo do peso, muito grave!'
+}
+else if( Imc >= 16 && Imc <= 16.9){
+    classification = 'Abaixo do peso, grave!'
+}
+else if( Imc >= 17 && Imc <= 18.49){
+    classification = 'Abaixo do peso!'
+}
+else if( Imc >= 18.50 && Imc <= 24.99){
+    classification = 'Peso Normal!'
+}
+else if( Imc >= 25 && Imc <= 29.99){
+    classification = 'Sobrepeso'
+}
+else if( Imc >= 30 && Imc <= 34.99){
+    classification = 'Obesidade grau I'
+}
+else if( Imc >= 35 && Imc <= 39.99){
+    classification = 'Obesidade grau II'
+}
+else{
+        classification = 'Obesidade grau III'
+}
+
+document.write(name + ' possui índice de massa corporal igual a ' + Imc.toFixed(2) + ' sendo classificado como ' + classification)
