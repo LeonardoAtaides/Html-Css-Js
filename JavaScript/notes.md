@@ -201,3 +201,21 @@ Ex:
 var saudacao = function(){
 document.write('Olá'+ name + 'Bem vindo!')
 }
+
+**Funções de callback**
+Funções que são passadas como argumentos para outra função
+Ex:
+callbackSucesso(titulo, descricao)                      callbackErro(erro)
+
+__________________________________________________________________________
+|       fuction exibirArtigo( id, callbackSucesso, callbackErro )         |
+|                                                                         |
+|       _Lógica para recuperar o artigho com base no id                   |
+|                                                                         |
+|       if(){                                                             |
+|           callbackSucesso('Título', 'Descrição')                        |
+|       }                                                                 |
+|      else{                                                              |
+|            callbackErro('Erro')                                         |
+|        }                                                                |
+___________________________________________________________________________
