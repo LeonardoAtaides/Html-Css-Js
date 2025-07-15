@@ -186,10 +186,18 @@ fuction calcularAreaTerreno(largura, comprimento){
     return area
 }
 
-*Funções tipo VOID*
+**Função tipo VOID**
 Quando chamada apenas irá processar algo
 Ex:
 
 function Imprimir(){
     document.write('hello, Word')
+}
+
+**Função Anônima**
+Uma função sem nome , geralmente utilizada em eventos
+Ex:     
+       |-> atribui ela a uma variavel para poder ser chamada 
+var saudacao = function(){
+document.write('Olá'+ name + 'Bem vindo!')
 }
