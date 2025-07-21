@@ -219,3 +219,44 @@ __________________________________________________________________________
 |            callbackErro('Erro')                                         |
 |        }                                                                |
 ___________________________________________________________________________
+
+
+# Strings
+
+## Propriedade
+**lenght**: serve para contar a quantidade de caracteres de uma string
+EX:  document.write('Hello, Word!'.length) - *12 caracteres*
+
+## Métodos
+**charAt()**: retorna a letra de acordo com o indice que o caracter representa
+EX: 'Hello, Word!'.charAt(0) - *H* 
+
+**indexOf()**: retorna o indice da primeira ocorrencia de uma string
+EX:
+var name = 'Ataídes'
+document.write(name.indexOf('A')) - *0*
+
+**replace**: substitui uma string por outra
+EX: 
+var name = 'Leonardo'
+document.write(name.replace('Leonardo', 'Ataídes')) - *Ataídes*
+
+**substr()**: retorna uma parte da string
+EX:
+var name = 'Leonardo'
+document.write(name.substr(3, 5)) - *nardo*
+
+**toLowerCase()**: converte a string para minuscula
+EX:   
+var name = 'LEONARDO'
+document.write(name.toLowerCase()) - *leonardo*
+
+**toUpperCase()**: converte a string para maiuscula
+EX: 
+var name = 'leonardo'
+document.write(name.toUpperCase()) *LEONARDO*
+
+**trim** : remove os espaços em branco em uma string
+EX:   
+var name = ' leonardo '
+document.write(name.trim())
