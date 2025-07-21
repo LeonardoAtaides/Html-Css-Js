@@ -17,10 +17,13 @@
         }
         
         var callbackSucesso = function(titulo, descricao){
-            document.write('<h1>' + '')
+            document.write('<h1>' + titulo + '</h1>')
+            document.write('<hr>')
+            document.write('<p>' + descricao + '</p>')
 
         }
-        var callbackErro = function(){
+        var callbackErro = function(erro){
+            document.write('<p><b>Erro:</b>' + erro + '</p>')
 
         }
 
