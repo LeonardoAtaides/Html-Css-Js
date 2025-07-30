@@ -227,6 +227,12 @@ ___________________________________________________________________________
 *Math.random()* : gere um valor aleatório entre 0 e 1
 
 **Funções Nativas Datas**
+*new Date()* : cria uma nova data, buscando a data atual do sistema, atribuido 
+ a uma variavel - Ex: var data = new Date()
+ 
+*getDate()* : retorna o dia do mês em número - Ex: data.getDate()
+*getMonth()* : retorna o mês em número - Ex: data.getMonth() + 1 *para o mês certo*
+*getFullYear()* : retorna o ano - Ex: data.getFullYear()
 
 # Strings
 
