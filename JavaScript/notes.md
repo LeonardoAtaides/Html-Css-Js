@@ -220,6 +220,13 @@ __________________________________________________________________________
 |        }                                                                |
 ___________________________________________________________________________
 
+**Funções Nativas Mat**
+*Math.round()* : recebe um valor fracionado e arredonda de acordo com o seu valor
+*Math.ceil()* : recebe um valor fracionado e arredonda para um valor acima
+*Math.floor()* : recebe um valor fracionado e arredonda para um valor abaixo
+*Math.random()* : gere um valor aleatório entre 0 e 1
+
+**Funções Nativas Datas**
 
 # Strings
 
