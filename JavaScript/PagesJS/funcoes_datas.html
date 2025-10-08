@@ -20,15 +20,36 @@
         document.write("<hr>")
         document.write(data.toString() + "<br><br>")
 
+        document.writeln("Removendo Dias <br>")
+        data.setDate(data.getDate() - 10)
+        document.write("<hr>")
+        document.write(data.toString() + "<br><br>")
+
 
         // adicionar / remover dias
         document.writeln("Adicionando Mêses <br>")
         data.setMonth(data.getMonth() + 10)
         document.write("<hr>")
+        document.write(data.toString() + "<br><br>")
+
+        document.writeln("Removendo Mêses <br>")
+        data.setMonth(data.getMonth() - 20)
+        document.write("<hr>")
+        document.write(data.toString() + "<br><br>")
+
+        // adicionar / remover anos
+        document.writeln("Adicionando Anos <br>")
+        data.setFullYear(data.getFullYear() + 10)
+        document.write("<hr>")
+        document.write(data.toString() + "<br><br>")
+
+        document.writeln("Adicionando Anos <br>")
+        data.setFullYear(data.getFullYear() - 20)
+        document.write("<hr>")
         document.write(data.toString() + "<br>")
     </script>
 </head>
-<body>
+<body style="background-color: rgb(17, 16, 16); color: white;">
 
 </body>
 </html>
