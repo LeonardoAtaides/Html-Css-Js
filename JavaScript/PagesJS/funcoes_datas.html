@@ -9,9 +9,23 @@
 
         var data = new Date()
 
-        document.write(data.getDate() + "/" + (data.getMonth() + 1) + "/" + data.getFullYear() + "<br>")
+        // Mostra a data atual do sistema Operacional
+        //document.write(data.getDate() + "/" + (data.getMonth() + 1) + "/" + data.getFullYear() + "<br>")
 
-        document.write("Hoje é dia " + data.getDate() + " de " +(data.getMonth() + 1) + " de " + data.getFullYear())
+        //document.write("Hoje é dia " + data.getDate() + " de " +(data.getMonth() + 1) + " de " + data.getFullYear())
+
+        // adicionar / remover dias
+        document.writeln("Adicionando Dias <br>")
+        data.setDate(data.getDate() + 10)
+        document.write("<hr>")
+        document.write(data.toString() + "<br><br>")
+
+
+        // adicionar / remover dias
+        document.writeln("Adicionando Mêses <br>")
+        data.setMonth(data.getMonth() + 10)
+        document.write("<hr>")
+        document.write(data.toString() + "<br>")
     </script>
 </head>
 <body>

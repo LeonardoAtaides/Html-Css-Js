@@ -234,6 +234,8 @@ ___________________________________________________________________________
 *getMonth()* : retorna o mês em número - Ex: data.getMonth() + 1 *para o mês certo*
 *getFullYear()* : retorna o ano - Ex: data.getFullYear()
 
+*setDate()*:  serve para adicionar ou remover dias do mês - Ex: data.setDate(data.getDate() + 10)
+
 # Strings
 
 ## Propriedade
