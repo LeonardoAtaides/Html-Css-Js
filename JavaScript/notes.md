@@ -226,7 +226,7 @@ ___________________________________________________________________________
 *Math.floor()* : recebe um valor fracionado e arredonda para um valor abaixo
 *Math.random()* : gere um valor aleatório entre 0 e 1
 
-**Funções Nativas Datas**
+**Funções Nativas para Manipular Datas**
 *new Date()* : cria uma nova data, buscando a data atual do sistema, atribuido 
  a uma variavel - Ex: var data = new Date()
  
