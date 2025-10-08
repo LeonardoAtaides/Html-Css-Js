@@ -7,7 +7,7 @@
 
     <script>
 
-        var data = new Date()
+        // var data = new Date()
 
         // Mostra a data atual do sistema Operacional
         //document.write(data.getDate() + "/" + (data.getMonth() + 1) + "/" + data.getFullYear() + "<br>")
@@ -15,6 +15,7 @@
         //document.write("Hoje é dia " + data.getDate() + " de " +(data.getMonth() + 1) + " de " + data.getFullYear())
 
         // adicionar / remover dias
+        /*
         document.writeln("Adicionando Dias <br>")
         data.setDate(data.getDate() + 10)
         document.write("<hr>")
@@ -47,6 +48,17 @@
         data.setFullYear(data.getFullYear() - 20)
         document.write("<hr>")
         document.write(data.toString() + "<br>")
+        */
+
+        var data1 = new Date(2025, 0, 23)
+        var data2 = new Date(2025, 9, 20)
+        var milisegundos_entre_datas = Math.abs(data1.getTime() - data2.getTime())
+        var milisegundos_por_dia =  1*24*60*60*1000
+
+        document.write('A diferença entre 01/2025 até 08/25 é de: '+ Math.ceil( milisegundos_entre_datas / milisegundos_por_dia) + ' dias')
+
+
+
     </script>
 </head>
 <body style="background-color: rgb(17, 16, 16); color: white;">
