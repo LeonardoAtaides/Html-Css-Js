@@ -69,3 +69,31 @@ else{
 }
 
 document.write(name + ' possui índice de massa corporal igual a ' + Imc.toFixed(2) + ' sendo classificado como: ' + classification)
+
+
+*CALCULAR UM NÚMERO DE ACORDO COM A ESCOLHA DE OPERAÇÃO*
+
+
+function calcular(num1, num2, operacao){
+if (operacao == 'soma'){
+    var soma
+    soma = num1 + num2
+    document.write('O resultado é: ' + soma )
+}
+
+else if(operacao == 'subtração' || operacao == 'subtracao'){
+    var subtracao
+    subtracao = num1 - num2
+    document.write('O resultado é: ' + subtracao )
+}
+
+else{
+    document.write('não foi possivel calcular, tente novamente!') 
+}       
+}
+
+var n1 = parseInt(prompt('Digite um número: '))
+var operacao = prompt('Qual operação deseja fazer? ')
+var n2 = parseInt(prompt('Digite outro número: '))
+
+calcular(n1, n2, operacao)
