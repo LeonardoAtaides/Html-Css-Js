@@ -297,4 +297,8 @@ Ex:
 **onmouseover** - é acionado quando o cursor do mouse sobropõe um elemento, ou seja quando passar por cima o cursos do mouse parecido com o hover
 **onmouseout** - é acionado quando o cursor sai da região da página ocupada pelo elemento
 
+## Teclado
 
+**onkeydown** - é acionado quando uma tecla é pressionada
+**onkeypress** - acontece entre estes dois eventos, quando se mantém  a tecla pressionada
+**onkeyup** - é acionado quando uma tecla e liberado
