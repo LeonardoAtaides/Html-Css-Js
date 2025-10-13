@@ -275,3 +275,26 @@ document.write(name.toUpperCase()) *LEONARDO*
 EX:   
 var name = ' leonardo '
 document.write(name.trim())
+
+
+# Eventos
+Possibilita capturar ações que são feitas pelo usuário dentro do navegador
+- Passa o tipo de evento dentro da tag: Ex: <div onclick="">, eles podem ser combinados, ou seja pode se usar mais de um.
+
+Ex:
+<script> function acao(){alert('Evento Disparado')} </script>
+
+<body>
+    <div onclick="acao()"></div> -> chama o evento, ao clicar na div e acionado
+</body>
+
+*site para consulta sobre o js DOM*: https://www.w3schools.com/js/default.asp
+
+## Mouse
+**onclick** - é acionado quando o elemento e clicado
+**ondblclick** - é acionado quando o elemento e clicado duas vezes
+**onmouseup** - é acionado quando o clique sobre um determinado elemento e liberado, ou seja é quando se segura e solta o clique sobre um elemento
+**onmouseover** - é acionado quando o cursor do mouse sobropõe um elemento, ou seja quando passar por cima o cursos do mouse parecido com o hover
+**onmouseout** - é acionado quando o cursor sai da região da página ocupada pelo elemento
+
+
