@@ -298,13 +298,15 @@ Ex:
 **onmouseout** - é acionado quando o cursor sai da região da página ocupada pelo elemento
 
 ## Teclado
-
 **onkeydown** - é acionado quando uma tecla é pressionada
 **onkeypress** - acontece entre estes dois eventos, quando se mantém  a tecla pressionada
 **onkeyup** - é acionado quando uma tecla e liberado
 
-
 ## Janela
-
 **onresize**  - é acionado quando a página ela redimencionada
 **onscroll** - é acionado quando o scroll do mouse é usado
+
+## Formulários
+**onfocus** - é acionado quando o elemento recebe o focu do cursor do mouse
+**onblur** - é acionado quando elemento perde o focu
+**onchange** - é acionado quando o estado do elemento for modificado
