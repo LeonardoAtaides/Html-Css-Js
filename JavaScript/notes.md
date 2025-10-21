@@ -302,3 +302,9 @@ Ex:
 **onkeydown** - é acionado quando uma tecla é pressionada
 **onkeypress** - acontece entre estes dois eventos, quando se mantém  a tecla pressionada
 **onkeyup** - é acionado quando uma tecla e liberado
+
+
+## Janela
+
+**onresize**  - é acionado quando a página ela redimencionada
+**onscroll** - é acionado quando o scroll do mouse é usado
