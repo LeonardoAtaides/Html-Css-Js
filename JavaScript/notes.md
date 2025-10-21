@@ -310,3 +310,6 @@ Ex:
 **onfocus** - é acionado quando o elemento recebe o focu do cursor do mouse
 **onblur** - é acionado quando elemento perde o focu
 **onchange** - é acionado quando o estado do elemento for modificado
+
+# DOM - Document Object Model
+API que permite o acesso via JavaScrpit aos elementos da página
