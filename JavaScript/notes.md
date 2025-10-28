@@ -313,3 +313,10 @@ Ex:
 
 # DOM - Document Object Model
 API que permite o acesso via JavaScrpit aos elementos da página
+
+**document (API DOM)**
+
+getElementById() - seleciona o input pelo id
+getElementsByTagName()  - seleciona o input pelo nome da tag
+getElementsByClassName() - seleciona o input pela class
+getElementsByName() - seleciona o input pelo name
