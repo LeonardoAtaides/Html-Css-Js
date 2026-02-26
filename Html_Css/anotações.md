@@ -1121,3 +1121,4 @@ Usado para estilizae formularios, usando as classes:
 *form-text* - Usado para formatar texto em um formulário
 
 *form-control-file* - Define dentro do input do tipo *file* para definir uma estilização
+
