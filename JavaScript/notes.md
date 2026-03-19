@@ -320,3 +320,12 @@ getElementById() - seleciona o input pelo id
 getElementsByTagName()  - seleciona o input pelo nome da tag
 getElementsByClassName() - seleciona o input pela class
 getElementsByName() - seleciona o input pelo name
+
+
+## ARRAY
+serve para armazenar um registro de algo, como uma lista
+ex:
+var lista = Array();
+fruta[1] = "Maça"
+fruta[2] = "Banana"
+fruta[3] = "Uva"
