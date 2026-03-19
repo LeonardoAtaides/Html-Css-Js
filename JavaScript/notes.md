@@ -329,3 +329,11 @@ var lista = Array();
 fruta[1] = "Maça"
 fruta[2] = "Banana"
 fruta[3] = "Uva"
+
+### ARRAY MULTIDIMENSIONAL
+É um Array derivado de outro
+ex:
+___LISTA DE COISAS___
+| FRUTAS  | Array() |
+| PESSOAS | Array() |
+|___________________|
