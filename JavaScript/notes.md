@@ -342,4 +342,12 @@ var lista_coisas = []
 lista_coisas['Frutas'] = ['Banana', 'Maça', 'Morango']
 lista_coisas['Pessoas'] = ['João', 'Ana','Carlos', 'Maria']
 
+### MÉTODOS DO ARRAY
+Incluir um elemento no início do array - lista.unshift('Melão')
+
+Inclui  elemento no final do array - lista.push('Uva')
+
+Exclui um elemento no início do array - lista.shift()
+
+Exclui um elemento no final do array - lista.pop()
 
