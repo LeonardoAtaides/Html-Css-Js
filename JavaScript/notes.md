@@ -351,3 +351,4 @@ Exclui um elemento no início do array - lista.shift()
 
 Exclui um elemento no final do array - lista.pop()
 
+Realiza uma pesquisa, puxando pelo índice - lista.IndexOf('Uva')
