@@ -337,3 +337,9 @@ ___LISTA DE COISAS___
 | FRUTAS  | Array() |
 | PESSOAS | Array() |
 |___________________|
+
+var lista_coisas = []
+lista_coisas['Frutas'] = ['Banana', 'Maça', 'Morango']
+lista_coisas['Pessoas'] = ['João', 'Ana','Carlos', 'Maria']
+
+
