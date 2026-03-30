@@ -362,3 +362,11 @@ function  ordenaNumeros(a, b){
 
 lista_numero.sort(ordenaNumeros)
 
+# ESTRUTURA DE REPETIÇÃO 
+Serve para evitar a repetição de códigos, apartir de estruturas dinamicas
+
+## WHILE
+Ex
+while(condicao){
+    // códigos
+}
