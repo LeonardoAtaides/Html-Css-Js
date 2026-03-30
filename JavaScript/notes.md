@@ -366,7 +366,13 @@ lista_numero.sort(ordenaNumeros)
 Serve para evitar a repetição de códigos, apartir de estruturas dinamicas
 
 ## WHILE
-Ex
+Ex:
 while(condicao){
     // códigos
 }
+
+## DO WHILE
+Ex:
+do{
+    // comandos
+} while (condicao)
