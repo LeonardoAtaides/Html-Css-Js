@@ -352,3 +352,13 @@ Exclui um elemento no início do array - lista.shift()
 Exclui um elemento no final do array - lista.pop()
 
 Realiza uma pesquisa, puxando pelo índice - lista.IndexOf('Uva')
+
+Organiza os elementos de string dentro do array - lista.sort()
+para ordenar numeros deve-se criar uma função desta forma:
+
+function  ordenaNumeros(a, b){
+    return a - b
+}
+
+lista_numero.sort(ordenaNumeros)
+
